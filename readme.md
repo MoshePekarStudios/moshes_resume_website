@@ -1,6 +1,6 @@
 ### Steps:
- - remove boilerplate code from vite
- - set fullscreen background image
+ ✔️ remove boilerplate code from vite
+ ✔️ set fullscreen background image
  - Header with my name
  - create terminals
  - Add links on bottom
