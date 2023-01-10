@@ -2,6 +2,9 @@
   max-width: 1280px;
 
 }
+.Body{
+  display:flex
+}
 *{
   margin: 0;
  
