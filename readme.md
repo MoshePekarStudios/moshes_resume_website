@@ -3,9 +3,8 @@
  ✔️ set fullscreen background image<br/>
  ✔️ Header with my name<br/>
  ✔️ create terminals
- - Add links on bottom
  - Make sure it's responsive
- - Deploy to actual website
+ ✔️ Deploy to actual website
 
  ### Tech used:
   - Vite.js
