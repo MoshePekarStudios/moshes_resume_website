@@ -23,7 +23,7 @@ function App() {
   <div className="Body">
   <div className="Terminals">
 
-<div className='TerminalWrapper' style={{width:'40vw', height:'50vh',margin:'5rem',color:'blue',backdropFilter: 'blur(5px)',overflow:'hidden'}}>
+<div className='Wrapper' style={{width:'40vw', height:'50vh',margin:'5rem',color:'blue',backdropFilter: 'blur(5px)',overflow:'hidden'}}>
 <ReactTerminal commands={commands} prompt={'➡️'} welcomeMessage={<><h2>Hello!</h2><br/><h3>Type <code>Moshe.Location</code> for my Location!</h3><h3><br/>Type <code>Moshe.Skills</code> for my Skills!</h3><br /><h3>Type <code>Moshe.Projects</code> for links to my Projects!</h3><hr/></>} themes={{
   myCustomtheme: {
     themeBGColor: "transparent",
@@ -40,21 +40,10 @@ function App() {
    
   </div>
 
-  {/* <div className='TerminalWrapper2' style={{width:'40vw', height:'50vh',margin:'5rem',color:'blue',backdropFilter: 'blur(5px)',overflow:'hidden'}}>
-<ReactTerminal commands={commands} prompt={'➡️'} welcomeMessage={<><h2>Type <span style={{'fontVariant':'all-small-caps','background':'grey'}}></span>get advice</h2><br /><hr/></>} themes={{
-  myCustomtheme: {
-    themeBGColor: "transparent",
-    themeToolbarColor: "tranparent",
-    themeColor: "white",
-    themePromptColor: "#a917a8"
-
-  }
-}}  theme="myCustomtheme"/>
-
-  </div> */}
+ 
 </div>
+<div className="form"><InnerHTML html={Form} /></div>
 
-<InnerHTML html={Form} />
   </div>
   
 </div>

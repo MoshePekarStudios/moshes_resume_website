@@ -10,20 +10,20 @@
  
 }
 
-h1{
+.sc-gswNZR{
   text-shadow: 1px 1px 3px #FF0000;
   font-size: 2.5rem;
   font-weight: bolder;
   font-family:"Bungee Inline";
   color:white
 }
-h1::after{
+.sc-gswNZR::after{
   content: ' |';
   animation: 1s blink step-end infinite;
   text-shadow: none;
 
 }
-h1::before{
+.sc-gswNZR::before{
   content: '> ';
 }
 
@@ -41,5 +41,18 @@ border: 10px inset goldenrod;
 
 }
 .Terminals{
-  display:flex
+  display:flex;
+  justify-content: center;
+}
+@media only screen and (max-width:1200px){
+  .Body{
+    flex-direction: column;
+    align-items: center;
+  }
+  .Wrapper{
+    width:90vw !important;
+    height: 75vh !important;
+    margin: 0 !important;
+  }
+  
 }
