@@ -1,6 +1,6 @@
 const Form = `
-<script src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.38587" type="text/javascript"></script>
-<script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.38587" type="text/javascript"></script>
+<script src="https://cdn02.jotfor.ms/static/prototype.forms.js?3.3.38597" type="text/javascript"></script>
+<script src="https://cdn03.jotfor.ms/static/jotform.forms.js?3.3.38597" type="text/javascript"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
 <script type="text/javascript">	JotForm.newDefaultTheme = false;
 	JotForm.extendsNewTheme = false;
@@ -15,29 +15,29 @@ if (window.JotForm && JotForm.accessible) $('input_4').setAttribute('tabindex',0
 	/*INIT-END*/
 	});
 
-   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBMIT","type":"control_button"},null,{"name":"message4","qid":"4","text":"Message","type":"control_textarea"},null,null,{"name":"email","qid":"7","text":"E-mail","type":"control_email"},{"name":"fullName","qid":"8","text":"Full Name","type":"control_textbox"},{"name":"clickTo","qid":"9","text":"Contact Us","type":"control_head"}]);
+   JotForm.prepareCalculationsOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBMIT","type":"control_button"},null,{"name":"message4","qid":"4","text":"Message","type":"control_textarea"},null,null,{"name":"email","qid":"7","text":"E-mail","type":"control_email"},{"name":"fullName","qid":"8","text":"Full Name","type":"control_textbox"},{"name":"clickTo","qid":"9","text":"Contact Me","type":"control_head"}]);
    setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBMIT","type":"control_button"},null,{"name":"message4","qid":"4","text":"Message","type":"control_textarea"},null,null,{"name":"email","qid":"7","text":"E-mail","type":"control_email"},{"name":"fullName","qid":"8","text":"Full Name","type":"control_textbox"},{"name":"clickTo","qid":"9","text":"Contact Us","type":"control_head"}]);}, 20); 
+JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBMIT","type":"control_button"},null,{"name":"message4","qid":"4","text":"Message","type":"control_textarea"},null,null,{"name":"email","qid":"7","text":"E-mail","type":"control_email"},{"name":"fullName","qid":"8","text":"Full Name","type":"control_textbox"},{"name":"clickTo","qid":"9","text":"Contact Me","type":"control_head"}]);}, 20); 
 </script>
-<link href="https://cdn01.jotfor.ms/static/formCss.css?3.3.38587" rel="stylesheet" type="text/css" />
-<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/nova.css?3.3.38587" />
+<link href="https://cdn01.jotfor.ms/static/formCss.css?3.3.38597" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/nova.css?3.3.38597" />
 <style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
-<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.38587" />
+<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.38597" />
 <style type="text/css">
     .form-label-left{
-        width:150px;
+        width:156px;
     }
     .form-line{
         padding-top:12px;
         padding-bottom:12px;
     }
     .form-label-right{
-        width:150px;
+        width:156px;
     }
     .form-all{
         width:450px;
-        color:rgb(62, 62, 62) !important;
-        font-family:'Lucida Grande&';
+        color:#6A4A3C !important;
+        font-family:'Roboto';
         font-size:14px;
     }
     .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
@@ -47,19 +47,23 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 </style>
 
 <style type="text/css" id="form-designer-style">
-@import "https://fonts.googleapis.com/css?family=Titillium+Web:light,lightitalic,normal,italic,bold,bolditalic|Exo+2:light,lightitalic,normal,italic,bold,bolditalic";
-@import (css) "@{buttonFontLink}";
+@import "https://fonts.googleapis.com/css?family=Titillium+Web:light,lightitalic,normal,italic,bold,bolditalic|Roboto:light,lightitalic,normal,italic,bold,bolditalic|Exo+2:light,lightitalic,normal,italic,bold,bolditalic";
     /* Injected CSS Code */
 
+.form-all:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .form-all {
-  font-family: "Lucida Grande&", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .form-all {
   width: 450px;
 }
 .form-label-left,
 .form-label-right {
-  width: 150px;
+  width: 156px;
 }
 .form-label {
   white-space: normal;
@@ -67,6 +71,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 .form-label.form-label-auto {
   display: block;
   float: none;
+  word-break: break-word;
   text-align: left;
 }
 .form-label-left {
@@ -101,8 +106,8 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
   font-weight: normal;
 }
 .supernova {
-  background-color: #ffffff;
-  background-color: #e6e3e3;
+  background-color: #edc951;
+  background-color: #eb6841;
 }
 .supernova body {
   background-color: transparent;
@@ -115,31 +120,32 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 /* | */
 @media screen and (min-width: 480px) {
   .supernova .form-all {
-    border: 1px solid #cec8c8;
-    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e14618;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
   }
 }
 /* | */
 /* | */
 @media screen and (max-width: 480px) {
-  .jotform-form {
-    padding: 10px 0;
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
   }
 }
 /* | */
 /* | */
-@media screen and (min-width: 480px) and (max-width: 768px) {
-  .jotform-form {
-    padding: 30px 0;
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
   }
 }
 /* | */
 /* | */
 @media screen and (min-width: 480px) and (max-width: 449px) {
-  .jotform-form {
-    padding: 30px 0;
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
   }
 }
 /* | */
@@ -152,46 +158,47 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 /* | */
 /* | */
 @media screen and (max-width: 449px) {
-  .jotform-form {
-    padding: 12px;
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
   }
 }
 /* | */
 .supernova .form-all,
 .form-all {
-  background-color: #ffffff;
+  background-color: #edc951;
   border: 1px solid transparent;
 }
 .form-header-group {
-  border-color: #e6e6e6;
+  border-color: #e8bb23;
 }
 .form-matrix-table tr {
-  border-color: #e6e6e6;
+  border-color: #e8bb23;
 }
 .form-matrix-table tr:nth-child(2n) {
-  background-color: #f2f2f2;
+  background-color: #ebc23a;
 }
 .form-all {
-  color: #3e3e3e;
+  color: #6a4a3c;
 }
 .form-header-group .form-header {
-  color: #3e3e3e;
+  color: #6a4a3c;
 }
 .form-header-group .form-subHeader {
-  color: #585858;
+  color: #8b614e;
 }
 .form-sub-label {
-  color: #585858;
+  color: #8b614e;
 }
 .form-label-top,
 .form-label-left,
 .form-label-right,
 .form-html {
-  color: #3e3e3e;
+  color: #6a4a3c;
 }
 .form-checkbox-item label,
 .form-radio-item label {
-  color: #585858;
+  color: #8b614e;
 }
 .form-line.form-line-active {
   -webkit-transition-property: all;
@@ -209,7 +216,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
   -ms-transition-timing-function: ease;
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(235, 104, 65, 0.4);
 }
 /* omer */
 .form-radio-item,
@@ -224,6 +231,27 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 .form-single-column .form-checkbox-item,
 .form-single-column .form-radio-item {
   width: 100%;
+}
+.form-checkbox-item .editor-container div,
+.form-radio-item .editor-container div {
+  position: relative;
+}
+.form-checkbox-item .editor-container div:before,
+.form-radio-item .editor-container div:before {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  left: 0;
+  width: 18px;
+  height: 18px;
+}
+.form-checkbox-item,
+.form-radio-item {
+  padding-left: 2px;
+}
+.form-checkbox-item input,
+.form-radio-item input {
+  margin-top: 2px;
 }
 .supernova {
   height: 100%;
@@ -251,11 +279,20 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
   background-position: center top;
 }
 .form-line {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 .form-line {
-  padding: 6px 36px;
+  padding: 6px 24px;
+}
+.form-all {
+  border-radius: 20px;
+}
+.form-section:first-child {
+  border-radius: 20px 20px 0 0;
+}
+.form-section:last-child {
+  border-radius: 0 0 20px 20px;
 }
 .form-all .qq-upload-button,
 .form-all .form-submit-button,
@@ -284,22 +321,17 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 .form-all .form-pagebreak-next {
   font-size: 1em;
   padding: 9px 15px;
-  font-family: "Lucida Grande&", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: normal;
 }
 .form-all .form-pagebreak-back,
 .form-all .form-pagebreak-next {
-  color: #3e3e3e !important;
-  background: false;
   box-shadow: none;
   text-shadow: none;
+  color: #6a4a3c !important;
+  background: false;
 }
-/*
-& when ( @buttonFontType = google ) {
-	
-}
-*/
 h2.form-header {
   line-height: 1.618em;
   font-size: 1.714em;
@@ -354,7 +386,12 @@ h2 ~ .form-subHeader {
 .form-checkbox-other-input,
 .form-captcha input,
 .form-spinner input {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: #ffffff;
+}
+.form-matrix-row-headers,
+.form-matrix-column-headers,
+.form-matrix-values {
+  padding: 4px;
 }
 [data-type="control_dropdown"] .form-input,
 [data-type="control_dropdown"] .form-input-wide {
@@ -368,7 +405,7 @@ h2 ~ .form-subHeader {
   border-bottom: none;
 }
 .form-label {
-  font-family: "Lucida Grande&", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 li[data-type="control_image"] div {
   text-align: left;
@@ -383,9 +420,7 @@ li[data-type="control_image"] img {
   width: auto;
 }
 .form-line-error {
-  background-color: #ffffff;
-  -webkit-box-shadow: inset 0px 3px 11px -7px #ff3200;
-  -moz-box-shadow: inset 0px 3px 11px -7px #ff3200;
+  background-color: #edc951;
   box-shadow: inset 0px 3px 11px -7px #ff3200;
 }
 .form-line-error input:not(#coupon-input),
@@ -406,10 +441,8 @@ li[data-type="control_image"] img {
   -ms-transition-timing-function: ease;
   -o-transition-timing-function: ease;
   transition-timing-function: ease;
-  border: 1px solid inherit;
-  -moz-box-shadow: 0 0 3px inherit;
-  -webkit-box-shadow: 0 0 3px inherit;
-  box-shadow: 0 0 3px inherit;
+  border: 1px solid #fff4f4;
+  box-shadow: 0 0 3px #fff4f4;
 }
 .form-line-error .form-error-message {
   margin: 0;
@@ -417,19 +450,16 @@ li[data-type="control_image"] img {
   color: #fff;
   display: inline-block;
   right: 0;
-  font-size: 10px;
+  font-size: 12px;
   position: absolute!important;
   box-shadow: none;
   top: 0px;
-  line-height: 20px;
   color: #FFF;
   background: #ff3200;
   padding: 0px 5px;
   bottom: auto;
-  min-width: 105px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
+  box-shadow: 0px 2px 4px rgba(102, 102, 102, 0.5);
 }
 .form-line-error .form-error-message img,
 .form-line-error .form-error-message .form-error-arrow {
@@ -442,17 +472,16 @@ li[data-type="control_image"] img {
 .ie-8 .form-all:before {
   display: none;
 }
+[data-type="control_clear"] {
+  display: none;
+}
 /* | */
-@media screen and (max-width: 480px), screen and (max-device-width: 768px) and (orientation: portrait), screen and (max-device-width: 415px) and (orientation: landscape) {
+@media screen and (max-width: 480px), screen and (max-device-width: 767px) and (orientation: portrait), screen and (max-device-width: 415px) and (orientation: landscape) {
   .testOne {
     letter-spacing: 0;
   }
-  .jotform-form {
-    padding: 12px 0 0 0;
-  }
   .form-all {
     border: 0;
-    width: 94%!important;
     max-width: initial;
   }
   .form-sub-label-container {
@@ -460,8 +489,6 @@ li[data-type="control_image"] img {
     margin: 0;
     margin-right: 0;
     float: left;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
   span.form-sub-label-container + span.form-sub-label-container {
@@ -496,7 +523,7 @@ li[data-type="control_image"] img {
   .form-matrix-row-headers {
     width: 100%;
     word-break: break-all;
-    min-width: 40px;
+    min-width: 80px;
   }
   .form-collapse-table,
   .form-header-group {
@@ -526,8 +553,6 @@ li[data-type="control_image"] img {
   .form-line,
   .form-line.form-line-column {
     padding: 2% 5%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
   input[type=text],
@@ -535,17 +560,17 @@ li[data-type="control_image"] img {
   input[type=tel],
   textarea {
     width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     max-width: initial !important;
+  }
+  .form-radio-other-input,
+  .form-checkbox-other-input {
+    max-width: 55% !important;
   }
   .form-dropdown,
   .form-textarea,
   .form-textbox {
     width: 100%!important;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
   .form-input,
@@ -554,6 +579,10 @@ li[data-type="control_image"] img {
   .form-textbox,
   .form-dropdown {
     max-width: initial!important;
+  }
+  .form-checkbox-item:not(#foo),
+  .form-radio-item:not(#foo) {
+    width: 100%;
   }
   .form-address-city,
   .form-address-line,
@@ -570,8 +599,6 @@ li[data-type="control_image"] img {
     padding-left: 5%!important;
     padding-right: 5%!important;
     margin: 0 0px 2% !important;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
   div.form-header-group.hasImage img {
@@ -588,37 +615,41 @@ li[data-type="control_image"] img {
   }
   [data-type=control_phone] .form-sub-label-container {
     width: 65%;
+    margin-right: 0;
+    margin-left: 0;
+    float: left;
   }
   [data-type=control_phone] .form-sub-label-container:first-child {
     width: 31%;
     margin-right: 4%;
   }
-  [data-type=control_datetime] .form-sub-label-container + .form-sub-label-container,
-  [data-type=control_datetime] .form-sub-label-container:first-child {
-    width: 27.3%;
-    margin-right: 6%;
+  [data-type=control_datetime] .allowTime-container {
+    width: 100%;
   }
-  [data-type=control_datetime] .form-sub-label-container + .form-sub-label-container + .form-sub-label-container {
-    width: 33.3%;
+  [data-type=control_datetime] .allowTime-container .form-sub-label-container {
+    width: 24%!important;
+    margin-left: 6%;
     margin-right: 0;
+  }
+  [data-type=control_datetime] .allowTime-container .form-sub-label-container:first-child {
+    margin-left: 0;
   }
   [data-type=control_datetime] span + span + span > span:first-child {
     display: block;
     width: 100% !important;
   }
   [data-type=control_birthdate] .form-sub-label-container,
-  [data-type=control_datetime] span + span + span > span:first-child + span + span,
   [data-type=control_time] .form-sub-label-container {
     width: 27.3%!important;
     margin-right: 6% !important;
   }
-  [data-type=control_birthdate] .form-sub-label-container:last-child,
   [data-type=control_time] .form-sub-label-container:last-child {
     width: 33.3%!important;
     margin-right: 0 !important;
   }
   .form-pagebreak-back-container,
   .form-pagebreak-next-container {
+    min-height: 1px;
     width: 50% !important;
   }
   .form-pagebreak-back,
@@ -1242,13 +1273,14 @@ table td + td {
     /* Injected CSS Code */
 </style>
 
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/buttons/form-submit-button-simple_black.css?3.3.38597"/>
 <form class="jotform-form" action="https://submit.jotform.com/submit/230017643879158/" method="post" name="form_230017643879158" id="230017643879158" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="230017643879158" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" />
   <div role="main" class="form-all">
     <ul class="form-section page-section">
       <li id="cid_9" class="form-input-wide" data-type="control_head">
         <div class="form-header-group  header-large">
           <div class="header-text httal htvam">
-            <h1 id="header_9" class="form-header" data-component="header">Contact Us</h1>
+            <h1 id="header_9" class="form-header" data-component="header">Contact Me</h1>
             <div id="subHeader_9" class="form-subHeader">Please fill this form in a decent manner</div>
           </div>
         </div>
@@ -1264,7 +1296,7 @@ table td + td {
       </li>
       <li class="form-line" data-type="control_button" id="id_2">
         <div id="cid_2" class="form-input-wide">
-          <div data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button form-submit-button-none submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">SUBMIT</button></div>
+          <div data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button form-submit-button-simple_black submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">SUBMIT</button></div>
         </div>
       </li>
       <li style="display:none">Should be Empty: <input type="text" name="website" value="" /></li>
@@ -1284,7 +1316,6 @@ table td + td {
     }
   </script>
   <div class="formFooter-heightMask"></div>
- 
 </form><script type="text/javascript">JotForm.ownerView=true;</script>
 `
 export default Form
