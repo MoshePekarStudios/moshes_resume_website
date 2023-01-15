@@ -7,6 +7,9 @@ const Background = styled.div`
     width:100vw;
     background-repeat: none;
     background-size: cover;
+    @media only screen and (max-width:1200px){
+        height:100%
+    }
 `
 
 export default Background

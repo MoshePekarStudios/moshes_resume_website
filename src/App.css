@@ -3,19 +3,23 @@
 
 }
 .Body{
-  display:flex
+  display:flex;
 }
 *{
   margin: 0;
  
 }
 
-.sc-gswNZR{
+.sc-gswNZR, h4{
   text-shadow: 1px 1px 3px #FF0000;
-  font-size: 2.5rem;
-  font-weight: bolder;
-  font-family:"Bungee Inline";
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Roboto;
   color:white
+}
+div h4 {
+  font-size:medium;
+  margin-left:7rem;
 }
 .sc-gswNZR::after{
   content: ' |';
@@ -54,8 +58,11 @@ border: 10px inset goldenrod;
     height: 75vh !important;
     margin: 0 !important;
   }
-  
 }
 .form-all{
   box-shadow: 3px 3px 4px #0d1c21;
+}
+a{
+  color:white;
+  text-decoration: none;
 }
