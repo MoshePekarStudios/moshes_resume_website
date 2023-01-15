@@ -9,9 +9,9 @@ import InnerHTML from 'dangerously-set-html-content'
 
 function App() {
   const commands = {
-    'Moshe.Location':'"Brooklyn, NY"',
-    'Moshe.Skills':'"[HTML ,CSS , JavaScript, ReactJS, NodeJS, W3.css, Bootstrap, MUI ]"',
-    'Moshe.Projects':<><a href="https://logo-finder-sooty.vercel.app"><h2>Logo Finder</h2></a><br/><a href="#"><h2>Resume website</h2></a></>,
+    'moshe.location':'"Brooklyn, NY"',
+    'moshe.skills':'"[HTML ,CSS , JavaScript, ReactJS, NodeJS, W3.css, Bootstrap, MUI ]"',
+    'moshe.projects':<><a href="https://logo-finder-sooty.vercel.app"><h2>Logo Finder</h2></a><br/><a href="#"><h2>Resume website</h2></a></>,
     
   }
  
@@ -20,6 +20,7 @@ function App() {
     <Background>
   <div className="App">
   <Header>Moshe Pekar</Header>
+  <h4>web developer</h4>
   <div className="Body">
   <div className="Terminals">
 
@@ -35,11 +36,6 @@ function App() {
 }}  theme="myCustomtheme"/>
 
   </div>
-
-  <div > 
-   
-  </div>
-
  
 </div>
 <div className="form"><InnerHTML html={Form} /></div>
