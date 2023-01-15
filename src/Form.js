@@ -1,6 +1,6 @@
 const Form = `
-<script src="https://cdn02.jotfor.ms/static/prototype.forms.js?3.3.38597" type="text/javascript"></script>
-<script src="https://cdn03.jotfor.ms/static/jotform.forms.js?3.3.38597" type="text/javascript"></script>
+<script src="https://cdn02.jotfor.ms/static/prototype.forms.js?3.3.38669" type="text/javascript"></script>
+<script src="https://cdn03.jotfor.ms/static/jotform.forms.js?3.3.38669" type="text/javascript"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/punycode/1.4.1/punycode.js"></script>
 <script type="text/javascript">	JotForm.newDefaultTheme = false;
 	JotForm.extendsNewTheme = false;
@@ -12,6 +12,7 @@ const Form = `
 	/*INIT-START*/
 if (window.JotForm && JotForm.accessible) $('input_8').setAttribute('tabindex',0);
 if (window.JotForm && JotForm.accessible) $('input_4').setAttribute('tabindex',0);
+      JotForm.alterTexts({"confirmClearForm":"Are you sure you want to clear the form","inputCarretErrorA":"Input should not less than the minimum value:","inputCarretErrorB":"Input should not greater than the maximum value:"});
 	/*INIT-END*/
 	});
 
@@ -19,10 +20,10 @@ if (window.JotForm && JotForm.accessible) $('input_4').setAttribute('tabindex',0
    setTimeout(function() {
 JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBMIT","type":"control_button"},null,{"name":"message4","qid":"4","text":"Message","type":"control_textarea"},null,null,{"name":"email","qid":"7","text":"E-mail","type":"control_email"},{"name":"fullName","qid":"8","text":"Full Name","type":"control_textbox"},{"name":"clickTo","qid":"9","text":"Contact Me","type":"control_head"}]);}, 20); 
 </script>
-<link href="https://cdn01.jotfor.ms/static/formCss.css?3.3.38597" rel="stylesheet" type="text/css" />
-<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/nova.css?3.3.38597" />
+<link href="https://cdn01.jotfor.ms/static/formCss.css?3.3.38669" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/nova.css?3.3.38669" />
 <style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
-<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.38597" />
+<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/css/styles/payment/payment_feature.css?3.3.38669" />
 <style type="text/css">
     .form-label-left{
         width:156px;
@@ -35,8 +36,8 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
         width:156px;
     }
     .form-all{
-        width:450px;
-        color:#6A4A3C !important;
+        width:500px;
+        color:#6a4a3c !important;
         font-family:'Roboto';
         font-size:14px;
     }
@@ -47,7 +48,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 </style>
 
 <style type="text/css" id="form-designer-style">
-@import "https://fonts.googleapis.com/css?family=Titillium+Web:light,lightitalic,normal,italic,bold,bolditalic|Roboto:light,lightitalic,normal,italic,bold,bolditalic|Exo+2:light,lightitalic,normal,italic,bold,bolditalic";
+@import "https://fonts.googleapis.com/css?family=Orbitron:light,lightitalic,normal,italic,bold,bolditalic|Roboto:light,lightitalic,normal,italic,bold,bolditalic|Exo+2:light,lightitalic,normal,italic,bold,bolditalic";
     /* Injected CSS Code */
 
 .form-all:after {
@@ -59,7 +60,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
   font-family: "Roboto", sans-serif;
 }
 .form-all {
-  width: 450px;
+  width: 500px;
 }
 .form-label-left,
 .form-label-right {
@@ -106,8 +107,8 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
   font-weight: normal;
 }
 .supernova {
-  background-color: #edc951;
-  background-color: #eb6841;
+  background-color: #85ff00;
+  background-color: #31221f;
 }
 .supernova body {
   background-color: transparent;
@@ -120,7 +121,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 /* | */
 @media screen and (min-width: 480px) {
   .supernova .form-all {
-    border: 1px solid #e14618;
+    border: 1px solid #120c0b;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
   }
 }
@@ -142,7 +143,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 }
 /* | */
 /* | */
-@media screen and (min-width: 480px) and (max-width: 449px) {
+@media screen and (min-width: 480px) and (max-width: 499px) {
   .jotform-form .form-all {
     margin: 0;
     width: 100%;
@@ -157,7 +158,7 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 }
 /* | */
 /* | */
-@media screen and (max-width: 449px) {
+@media screen and (max-width: 499px) {
   .jotform-form .form-all {
     margin: 0;
     width: 100%;
@@ -166,17 +167,17 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 /* | */
 .supernova .form-all,
 .form-all {
-  background-color: #edc951;
+  background-color: #85ff00;
   border: 1px solid transparent;
 }
 .form-header-group {
-  border-color: #e8bb23;
+  border-color: #6acc00;
 }
 .form-matrix-table tr {
-  border-color: #e8bb23;
+  border-color: #6acc00;
 }
 .form-matrix-table tr:nth-child(2n) {
-  background-color: #ebc23a;
+  background-color: #78e600;
 }
 .form-all {
   color: #6a4a3c;
@@ -194,11 +195,11 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 .form-label-left,
 .form-label-right,
 .form-html {
-  color: #6a4a3c;
+  color: #090b7c;
 }
 .form-checkbox-item label,
 .form-radio-item label {
-  color: #8b614e;
+  color: #0c0fac;
 }
 .form-line.form-line-active {
   -webkit-transition-property: all;
@@ -279,11 +280,19 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
   background-position: center top;
 }
 .form-line {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 11px;
+  margin-bottom: 11px;
 }
 .form-line {
-  padding: 6px 24px;
+  padding: 0px 17px;
+}
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print {
+  border-radius: 100px;
+}
+.form-all .form-sub-label {
+  margin-left: 3px;
 }
 .form-all {
   border-radius: 20px;
@@ -298,24 +307,35 @@ JotForm.paymentExtrasOnTheFly([null,null,{"name":"submit","qid":"2","text":"SUBM
 .form-all .form-submit-button,
 .form-all .form-submit-reset,
 .form-all .form-submit-print {
-  font-size: 1em;
-  padding: 9px 15px;
-  font-family: "Titillium Web", sans-serif;
+  height: 42px;
+  width: 108px;
+  font-size: 1.15em;
+  padding: 12px 18px;
+  display: block;
+  width: 100%;
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: bolder;
   border: none;
-  border-width: 1px !important;
+  border-width: 0px !important;
   border-style: solid !important;
   border-color: #9e9e9e !important;
 }
-.form-all .qq-upload-button,
-.form-all .form-submit-button,
-.form-all .form-submit-reset,
+.form-all .form-buttons-wrapper {
+  margin-left: 0 !important;
+}
+.form-all .form-pagebreak-back-container,
+.form-all .form-pagebreak-next-container {
+  width: 48% !important;
+  padding: 24px 0;
+}
+.form-all .form-pagebreak-next-container {
+  margin-left: 4%;
+}
 .form-all .form-submit-print {
-  color: #ffffff !important;
-  background: #9e9e9e;
-  box-shadow: none;
-  text-shadow: none;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 .form-all .form-pagebreak-back,
 .form-all .form-pagebreak-next {
@@ -357,7 +377,7 @@ h2 ~ .form-subHeader {
   font-family: "Exo 2", sans-serif;
 }
 .form-section {
-  padding: 0px 0px 0px 0px;
+  padding: 16px 0px 16px 0px;
 }
 .form-header-group {
   margin: 0px 0px 0px 0px;
@@ -386,7 +406,7 @@ h2 ~ .form-subHeader {
 .form-checkbox-other-input,
 .form-captcha input,
 .form-spinner input {
-  background-color: #ffffff;
+  background-color: #c3daac;
 }
 .form-matrix-row-headers,
 .form-matrix-column-headers,
@@ -420,7 +440,7 @@ li[data-type="control_image"] img {
   width: auto;
 }
 .form-line-error {
-  background-color: #edc951;
+  background-color: #85ff00;
   box-shadow: inset 0px 3px 11px -7px #ff3200;
 }
 .form-line-error input:not(#coupon-input),
@@ -1273,7 +1293,7 @@ table td + td {
     /* Injected CSS Code */
 </style>
 
-<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/buttons/form-submit-button-simple_black.css?3.3.38597"/>
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/buttons/form-submit-button-denim_dark_blue.css?3.3.38669"/>
 <form class="jotform-form" action="https://submit.jotform.com/submit/230017643879158/" method="post" name="form_230017643879158" id="230017643879158" accept-charset="utf-8" autocomplete="on"><input type="hidden" name="formID" value="230017643879158" /><input type="hidden" id="JWTContainer" value="" /><input type="hidden" id="cardinalOrderNumber" value="" />
   <div role="main" class="form-all">
     <ul class="form-section page-section">
@@ -1296,7 +1316,7 @@ table td + td {
       </li>
       <li class="form-line" data-type="control_button" id="id_2">
         <div id="cid_2" class="form-input-wide">
-          <div data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button form-submit-button-simple_black submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">SUBMIT</button></div>
+          <div data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField"><button id="input_2" type="submit" class="form-submit-button form-submit-button-denim_dark_blue submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">SUBMIT</button></div>
         </div>
       </li>
       <li style="display:none">Should be Empty: <input type="text" name="website" value="" /></li>
